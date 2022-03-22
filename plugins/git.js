@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
   WhatsApp Group link
   https://chat.whatsapp.com/D3fhKLgNybo7RP4TEKgrFc
  Subscribe PBA MoDs
-`https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ/videos    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/422a1723277a7cb07be0c.jpg")).buffer(), haruno, 'Thakkudu WA BoT', 'KIdu😝', '.menu', 'Nice😉', '.menu', m)}
+`https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ/videos    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/24205ebf7697a6519e519.png")).buffer(), haruno, 'Thakkudu WA BoT', 'KIdu😝', '.menu', 'Nice😉', '.menu', m)}
 handler.tags = ['main']
 handler.help = ['git']
 handler.command = /^(git)$/i
