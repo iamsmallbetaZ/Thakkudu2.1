@@ -1,19 +1,10 @@
-let handler = async function (m, { conn }) {
-  let list = []
-  for (let i of owner.map(v => v + '@s.whatsapp.net')) {
-    let name = db.data.users[i] ? db.data.users[i].name : conn.getName(i)
-    list.push({
-      "displayName": name,
-      "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;${name};;;\nFN:${name}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-    })
-  }
-  await conn.sendMessage(m.chat, {
-    "displayName": `${list.length} Contact`,
-    "contacts": list
-  }, 'contactsArrayMessage', { quoted: m })
+let fetch = require ('node-fetch')
+let handler = async (m, { conn }) => {
+    let devil = `ㅤ
+`.trim()
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://raw.githubusercontent.com/iambabu98/uu/main/Hnet.com-image%20(3).jpg")).buffer(), devil, 'ᴾᴮᴬ ᴮᵒᵀ ᴮʸ ᴾᴮᴬ ᴹᵒᴰˢ 𝙼𝚁_𝚣\n\╔ₕₐₚₚy\n\║ₜₒ\n\║ₕₑₗₚ\n\╚Yₒᵤ \n\n\ https://github.com/IAMBetAZ\n\n\ ❍︎ ᵢₜz ₘ₃ ₘᵣ_z' , '❤🔥', '.❤🔥', '😗', ',😗')
 }
-handler.help = ['owner']
-handler.tags = ['info']
-handler.command = /^(owner|creator)$/i
-
+handler.tags = ['main']
+handler.help = ['git']
+handler.command = /^(git)$/i
 module.exports = handler
