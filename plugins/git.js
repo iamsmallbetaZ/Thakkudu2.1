@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
   https://a-j-m-a-l.github.io
  Watch Tutorial Video
 `.trim()
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/584b99e814690766d9761.jpg")).buffer(), haruno, 'Nandhutty V3', 'poli❤️', 'kk', 'Tnks😄', 'kk', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/584b99e814690766d9761.jpg")).buffer(), haruno, 'Nandhutty V3', 'poli❤️', '.menu', 'Tnks😄', '.menu', m)
 }
 handler.tags = ['main']
 handler.help = ['git']
