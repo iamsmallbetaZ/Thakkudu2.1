@@ -1,13 +1,13 @@
 let fetch = require ('node-fetch')
 let handler = async (m, { conn }) => {
     let haruno = `┌ 「 𝐆𝐈𝐓」
-    Here Is The Git Bro🙂
-  https://github.com/Ajmal-Achu/Nandhutty-V3
-  Official Website
-  https://a-j-m-a-l.github.io
- Watch Tutorial Video
-`.trim()
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/584b99e814690766d9761.jpg")).buffer(), haruno, 'Nandhutty V3', 'poli❤️', '.menu', 'Tnks😄', '.menu', m)
+    This is the GIT Vro 🤹🏻‍♂️
+https://github.com/I4MBetAZ/PBA-BoT-V1
+  PBA BoT ZoNe 🤺
+  https://chat.whatsapp.com/D3fhKLgNybo7RP4TEKgrFc
+ Subscribe PBA MoDs 🙃
+ `.trim()
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/8871e93ac5d3c3fb82817.png")).buffer(), haruno, 'Thakkudu 2.O', 'Kiduvaa🥳', '.menu', 'Choooper😝', '.menu', m)
 }
 handler.tags = ['main']
 handler.help = ['git']
