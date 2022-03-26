@@ -1,7 +1,7 @@
 <div align="center">
 <div align="center">
   <p align="center">
-<img src=https://telegra.ph/file/8871e93ac5d3c3fb82817.png>
+<img src=https://i.imgur.com/W6iMjZ5.png>
 </p>
  </a>
 </p>
@@ -27,7 +27,6 @@
        | © |
         Reserved |
     <br> 
-
 
 
 
