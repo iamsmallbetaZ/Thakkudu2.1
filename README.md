@@ -8,26 +8,6 @@
 
 
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELLCOME+TO+THE+WORLD+OF+MR_Z+GIT.;CRATED+BY+MR_Z+AND+PBA MoDs TEAM,;THIS+IS+A+WA+BoT;MADE+WITH+PASSION;THANKS+TO+ALIEN ALFA+&+AJMAL)](https://git.io/typing-svg)
-
- </a>
-</p>
-<div align="center">
-  <p align="center">
-<img src="https://i.imgur.com/GQi3ysm.jpg" alt="GIF" width="300" height="280"/>
-</p>
-
-  <p align="center">
-<a href="#"><img title="Sana" src="https://img.shields.io/badge/Abu-Sana-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-</div>
-<p align="center">
-𝐏𝐑𝐎𝐉𝐄𝐂𝐓 𝐂𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐒𝐀𝐍𝐀 𝐀𝐍𝐃 𝐀𝐁𝐔
-    <br>
-       | © |
-        Reserved |
-    <br> 
-
 
 
 # 𝐼𝓉𝟧 𝑀𝟥 𝑀𝟨_𝟤
