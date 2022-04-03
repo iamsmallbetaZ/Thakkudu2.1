@@ -13,11 +13,11 @@ const defaultMenu = {
 
 ⚜ Github:https://github.com/I4MBetAZ/PBA-BoT-V1
 
-⚜Instagram:https://www.instagram.com/17_2_m3_m6_2/
+⚜Instagram:https://bit.ly/3u26FyX
 
-⚜Subscribe PBA MoDs:https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ
+⚜Subscribe PBA MoDs:https://bit.ly/3qWJzHW
 
-⚜ PBA BoT ZoNe:https://chat.whatsapp.com/D3fhKLgNybo7RP4TEKgrFc
+⚜ PBA BoT ZoNe:https://bit.ly/3u26J1F
 
      〘 𝐓𝐡𝐚𝐤𝐤𝐮𝐝𝐮 𝟐.𝐎 〙
 %readmore`.trimStart(),
@@ -355,7 +355,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://telegra.ph/file/8871e93ac5d3c3fb82817.png")).buffer(), text.trim(), 'Made With Passion by 𝙿𝙱𝙰 𝙼𝚘𝙳𝚜 𝙼𝚁_𝚉', 'Owner Bot', ',owner', 'All Commands', '.? all', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/Y2576FG.jpg")).buffer(), text.trim(), 'Made With Passion by 𝙿𝙱𝙰 𝙼𝚘𝙳𝚜 𝙼𝚁_𝚉', 'Owner Bot', ',owner', 'All Commands', '.? all', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
