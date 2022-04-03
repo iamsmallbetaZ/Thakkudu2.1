@@ -16,7 +16,7 @@
   <img border-radius: 15px src="https://i.imgur.com/F5zhbpM.jpg" width="200" height="200"/>
 
 <p align="center">
-  <a href="https://instagram.com/17_2_m3_m6_2"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://www.instagram.com/i_am__m_r__z/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
   <a href="https://wa.me/50378165999"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
@@ -38,7 +38,7 @@
 ----------
 
 <p align="center">
-  <a href="https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ/videos"><img src="https://i.imgur.com/k5sWcq0.jpg" />
+  <a href="https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ/videos"><img src="https://i.imgur.com/Y2576FG.jpg" />
 </p>
 
 -------
