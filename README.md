@@ -53,15 +53,20 @@
   ## `SCAN QR`
 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@I4MBetAZ/pbabot?v=1)
- 
-3. CRATE ACCOUNT IN HEROKU [Heroku](https://signup.heroku.com/)
-
   
-  4.YOU WILL HAVE TO FORK THIS REPO FOR DEPLOY VIA HEROKU.
+3. YOU WILL HAVE TO FORK THIS REPO FOR DEPLOY VIA HEROKU.
   CLICK HERE TO FORK THIS REPO
  Click [FORK](https://github.com/I4MBetAZ/PBA-BoT-V1/fork)
   
-5. TURN OFF WEB NODE SERVER SWITCH AND TURN ON THE NPM START ❗🛑
+4. GIVE CLIENT ID IN THE SESSIONDATA.JS  
+ 
+5. CREATE ACCOUNT IN HEROKU [Heroku](https://signup.heroku.com/) 
+  
+
+  
+6. NOW https://heroku.com/deploy?template=https://github.com/I4MBetAZ/PBA-BoT-V1 COPY THIS URL AND CHANGE I4MBetAZ WITH YOUR GITHUB USERNAME AND CLICK GO<br> 
+  
+7. TURN OFF WEB NODE SERVER SWITCH AND TURN ON THE NPM START ❗🛑
 
 ## `DEPLOY`
 
