@@ -4,11 +4,11 @@ let handler = async (m, { conn }) => {
  ♨This is the GIT Vro 🤹🏻‍♂️
 🗯 https://github.com/I4MBetAZ/PBA-BoT-V1
  ♨ PBA BoT ZoNe 🤺
-🗯 https://chat.whatsapp.com/D3fhKLgNybo7RP4TEKgrFc
+🗯 https://bit.ly/3u26J1F
 ♨Subscribe PBA MoDs 🙃
-🗯 https://www.youtube.com/channel/UCxkxhbcHQb2B8JH3j-UVArQ/videos
+🗯 https://bit.ly/3qWJzHW
  `.trim()
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/8871e93ac5d3c3fb82817.png")).buffer(), haruno, 'Thakkudu 2.O', 'Kiduvaa🥳', '.menu', 'Choooper😝', '.menu', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://i.imgur.com/Y2576FG.jpg")).buffer(), haruno, 'Thakkudu 2.O', 'Kiduvaa🥳', '.menu', 'Choooper😝', '.menu', m)
 }
 handler.tags = ['main']
 handler.help = ['git']
