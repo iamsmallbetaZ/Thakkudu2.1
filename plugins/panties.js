@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
  
-  conn.sendFile(m.chat, 'https://api.xteam.xyz/randomimage/panties?APIKEY=HIRO', '', 'aku melihat pantsu', m)
+  conn.sendFile(m.chat, 'https://api.xteam.xyz/randomimage/panties?APIKEY=HIRO', '', 'Chugam frm Thakkudu', m)
   
 }
 handler.help = ['pantsu']
