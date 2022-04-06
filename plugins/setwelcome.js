@@ -1,14 +1,20 @@
-let handler = async (m, { conn, text, isROwner, isOwner, usedPrefix, command }) => {
+let handler = async (m, { conn, text, isOwner, usedPrefix, command, isAdmin }) => {
   if (text) {
-    if (isROwner) global.conn.welcome = text
-    else if (isOwner) conn.welcome = text
+    if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+    }
     global.db.data.chats[m.chat].sWelcome = text
-    m.reply('Welcome set successfully\n@user (Mention)\n@subject (Title Grup)\n@desc (Description Grup)')
-  } else throw `uhm.. where's the text?\n\nExample:\n${usedPrefix + command} 𝒲𝑒𝐿𝓁𝒞𝑜𝓂𝐸 @user group @subject\n\n@desc`
+    m.reply('welcome berhasil diatur\n@user (Mention)\n@subject (Title Group)\n@desc (Desc Group)')
+  } else throw `contoh:\n${usedPrefix + command} hi, @user! welcome to the group @subject 
+  
+@desc`.trim()
 }
 handler.help = ['setwelcome <teks>']
-handler.tags = ['owner', 'group']
-
+handler.tags = ['group']
 handler.command = /^setwelcome$/i
+
+handler.group = true
+
 module.exports = handler
 
