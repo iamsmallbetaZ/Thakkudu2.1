@@ -4,10 +4,10 @@ let handler = async (m, { conn }) => {
   if (!res.ok) throw eror
   let json = await res.json()
   if (!json.url) throw 'Error!'
-  conn.sendFile(m.chat, json.url, '', 'Here It is', m, 0, { thumbnail: Buffer.alloc(0) })
+  conn.sendFile(m.chat, json.url, '', 'Thakkudu 2.O', m, 0, { thumbnail: Buffer.alloc(0) })
 }
-handler.help = ['waifu']
+handler.help = ['anime']
 handler.tags = ['internet']
-handler.command = /^(waifu)$/i
+handler.command = /^(anime)$/i
 
 module.exports = handler
